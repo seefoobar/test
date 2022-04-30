@@ -5,7 +5,19 @@
 </head>
 
 <body>
-    <script src="main.js?a"></script>
+    <h1>JWT test</h1>
+    <label for="type-select">type:</label>
+    <select id="type-select" value="default">
+        <option value="default">default</option>
+        <option value="mfa">mfa</option>
+    </select>
+    <label for="count-input">count:</label>
+    <input id="count-input" type="number" value="10" />
+    <button id="create-button">create</button>
+    <button id="copy-button">copy</button>
+    <hr>
+    <textarea id="result" rows="1" style="width:100%"></textarea>
+    <script src="main.js"></script>
 </body>
 
 </html>
